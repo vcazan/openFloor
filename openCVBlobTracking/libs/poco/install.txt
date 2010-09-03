@@ -1,0 +1,19 @@
+Installing Poco for OS X (10.4 or higher) with XCode
+
+Theo changes:
+i) library is now 10.4 and 10.5 compatible
+ii) library is now universal (ppc and intel)
+
+---
+
+1. Put the folder in your 'libs' folder.
+
+2. In Project -> Edit Project Settings -> Build Add ../../libs/poco/include to the "Header Search Paths" 
+   (make sure you have it set for all configurations)
+
+3. Create a new group called poco inside "libs/other libs" in "Groups and Files"
+From the finder drag all the .a files in ../poco/lib folder to your poco group 
+(choose relative to project as the reference type).
+
+
+thanks erik.sjodin, jeff
