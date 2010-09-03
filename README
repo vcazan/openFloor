@@ -1,0 +1,34 @@
+openFloor is (C) Copyright Vlad Cazan
+Friday September 3rd 2010
+*********************************************************
+NOTICE:
+It is recommended to use the official openFloor 
+software repositories, located at http://github.com/vcazan/openFloor
+
+USAGE INFO:
+This package consist of two parts.
+
+One piece of software, written in XCODE is responsible for tracking humans that are on the floor. It is located in the openCVBlobTracking folder. The project file is located at: openCVBlobTracking/apps/blobTracking/blobTracking-OSX/blobTracking.xcodeproj This program will spit out x,y coordinates as well as mood and the number of people on the floor. These values will be documented further at a later time.
+
+The second piece of software is written with Processing. This application decodes the values from the tracking software and creates a user interface that can be projected on the floor. 
+
+*NOTES*
+-For more information on how to set up this installation just visit http://www.vladcazan.com/projects/openfloor/
+
+-I have a plan on creating this interface work with Flash and Actionscript so that it will be possible to design more dynamic projections.
+
+****************************************************************
+
+The Interactive Floor is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
