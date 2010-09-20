@@ -85,10 +85,10 @@ x) Close()
 	#include <sys/time.h>
 	#include <sys/ioctl.h>
 
-    #ifdef TARGET_LINUX
-        // linux needs this:
-        #include <netinet/tcp.h>		/* for TCP_MAXSEG value */
-    #endif
+//#ifdef TARGET_LINUX
+// linux needs this:
+#include <netinet/tcp.h>      /* for TCP_MAXSEG value */
+//#endif
 
 
 	#define SO_MAX_MSG_SIZE TCP_MAXSEG

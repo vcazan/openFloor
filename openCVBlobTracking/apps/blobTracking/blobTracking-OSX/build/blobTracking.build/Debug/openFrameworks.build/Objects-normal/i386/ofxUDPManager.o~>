@@ -1,0 +1,2 @@
+/Users/vladcazan/openFloor/openCVBlobTracking/apps/blobTracking/blobTracking-OSX/../../../addons/ofxNetwork/src/ofxUDPManager.cpp: In member function 'int ofxUDPManager::GetMaxMsgSize()':
+/Users/vladcazan/openFloor/openCVBlobTracking/apps/blobTracking/blobTracking-OSX/../../../addons/ofxNetwork/src/ofxUDPManager.cpp:341: error: 'TCP_MAXSEG' was not declared in this scope
