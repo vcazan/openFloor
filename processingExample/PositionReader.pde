@@ -135,7 +135,7 @@ public static class PositionReader extends Thread
       user = (User)users.get(key);
     } else {
       if (status == "meditating") return;
-      user = (new testTracking()).new User(this.processing, userId);
+      user = (new processingExample()).new User(this.processing, userId);
       users.put(new Integer(userId), user);
     }
     user.update(round(xCor * processing.width), round(yCor * processing.height));

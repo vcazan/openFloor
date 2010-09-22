@@ -1,5 +1,5 @@
 openFloor is (C) Copyright Vlad Cazan
-Friday September 3rd 2010
+Wednesday September 22nd 2010
 *********************************************************
 NOTICE:
 It is recommended to use the official openFloor 
@@ -8,14 +8,30 @@ software repositories, located at http://github.com/vcazan/openFloor
 USAGE INFO:
 This package consist of two parts.
 
-One piece of software, written in XCODE is responsible for tracking humans that are on the floor. It is located in the openCVBlobTracking folder. The project file is located at: openCVBlobTracking/apps/blobTracking/blobTracking-OSX/blobTracking.xcodeproj This program will spit out x,y coordinates as well as mood and the number of people on the floor. These values will be documented further at a later time.
+One piece of software, written in XCODE is responsible for tracking humans that are on the floor. It is located in the openCVBlobTracking folder. The project file is located at: openCVBlobTracking/apps/blobTracking/blobTracking-OSX/blobTracking.xcodeproj This program will spit out x,y coordinates as well as mood and the number of people on the floor. 
+
+Here is a outline of this value:
+Each message is made up of 6 numbers. 
+
+First number:
+0 = User has joined
+1 = User has moved
+2 = User has left the screen
+3 = Mood Info
+4 = User Blob Test (For testing)
+99 = Scene Mood User
+
+Second number: Order
+Third number: ScaledX
+Fourth number: ScaledY
 
 The second piece of software is written with Processing. This application decodes the values from the tracking software and creates a user interface that can be projected on the floor. 
+
 
 *NOTES*
 -For more information on how to set up this installation just visit http://www.vladcazan.com/projects/openfloor/
 
--I have a plan on creating this interface work with Flash and Actionscript so that it will be possible to design more dynamic projections.
+-There is currently a BETA version of the flash interface. It is just a basic example on how to get the values from the tracking application parsed and useable for flash and actionscript. More details to come.
 
 ****************************************************************
 

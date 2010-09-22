@@ -71,22 +71,22 @@ it should be located at the filesystem root, i.e. accesible as /exampleSettings 
 void testApp::setup() {
     // OpenFrameworks setup
 	// Set default settings
-	ofSetFrameRate( 60 );
+	ofSetFrameRate( 30 );
     cwidth = 320;
     cheight = 240;
 	threshold = 60;
-	deviceID = 4;
+	deviceID = 0;
 	topLeftX = 1;
 	topLeftY = 1;
 	blobSizeMin = 100;
 	blobSizeMax = 20000;
-	maxUsers = 15;
+	maxUsers = 1;
 	lowRightX = cwidth;
 	lowRightY = cheight;
 	userOffsetX = 0;
 	userOffsetY = 0;
 	flipImageH = 0;
-	flipImageV = 0;
+	flipImageV = 1;
 	serverPort = 9090;
 	moodSpike = 0.25;
 	nonMoodFrames = 3;
