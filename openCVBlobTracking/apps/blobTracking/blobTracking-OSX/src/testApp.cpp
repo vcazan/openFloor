@@ -1,6 +1,13 @@
 
 #include "testApp.h"
 
+///WINDOWS USERS CAN BUILD WITH VS2008 BY UNCOMMENTING THE FOLLOWING THREE LINES
+
+//#include <stdio.h>
+
+//#define strncasecmp strnicmp
+//#define strcasecmp stricmp
+
 // Common codes - defined in the blog page
 #define USER_JOINED 0
 #define USER_MOVED 1
@@ -61,9 +68,6 @@ it should be located at the filesystem root, i.e. accesible as /exampleSettings 
 #define MAX_LINE_SIZE 30
 
 
-
-
-
 void testApp::setup() {
     // OpenFrameworks setup
 	// Set default settings
@@ -71,7 +75,7 @@ void testApp::setup() {
     cwidth = 320;
     cheight = 240;
 	threshold = 60;
-	deviceID = 0;
+	deviceID = 4;
 	topLeftX = 1;
 	topLeftY = 1;
 	blobSizeMin = 100;
