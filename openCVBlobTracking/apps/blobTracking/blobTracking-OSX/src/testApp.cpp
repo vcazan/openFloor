@@ -75,7 +75,7 @@ void testApp::setup() {
     cwidth = 320;
     cheight = 240;
 	threshold = 60;
-	deviceID = 0;
+	deviceID = 1;
 	topLeftX = 1;
 	topLeftY = 1;
 	blobSizeMin = 100;
@@ -209,7 +209,7 @@ void testApp::update() {
 			char updateMSG[100];
 			sprintf(updateMSG,"%d|%d|%f|%f|%f|%f\n", USER_MOOD, SCENE_MOOD_USER, mood, 0.0,
 					0.0, 0.0);
-			printf(updateMSG);
+			printf("%s",updateMSG);
 			tcps.sendToAll(updateMSG);
 			currNonMoodFrame = 0;
 

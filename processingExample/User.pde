@@ -99,7 +99,7 @@ public class User
       thisMovement += abs(this.meditateY - pos[1]);
       score += thisMovement;
     }
-    this.score = score;
+    this.score = score; 
   }
   
   public boolean isReady()

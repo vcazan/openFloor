@@ -44,6 +44,16 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	C3B27E801295ABC3003B96D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 212";
+		rLen = 0;
+		rLoc = 5567;
+		rType = 0;
+		vrLen = 1252;
+		vrLoc = 5055;
+	};
 	C3E1E894124A7C7B00F6C70B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
@@ -53,26 +63,6 @@
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 0;
-	};
-	C3E1E895124A7C7B00F6C70B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 149";
-		rLen = 0;
-		rLoc = 3962;
-		rType = 0;
-		vrLen = 1012;
-		vrLoc = 331;
-	};
-	C3E1E8C6124A961F00F6C70B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 88";
-		rLen = 0;
-		rLoc = 1859;
-		rType = 0;
-		vrLen = 969;
-		vrLoc = 1425;
 	};
 	C3E7B3EE124A999B006DDE8B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -115,13 +105,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 306878867;
-			PBXWorkspaceStateSaveDate = 306878867;
+			PBXPerProjectTemplateStateSaveDate = 311798489;
+			PBXWorkspaceStateSaveDate = 311798489;
 		};
 		perUserProjectItems = {
-			C3E1E894124A7C7B00F6C70B = C3E1E894124A7C7B00F6C70B /* PBXTextBookmark */;
-			C3E1E895124A7C7B00F6C70B = C3E1E895124A7C7B00F6C70B /* PBXTextBookmark */;
-			C3E1E8C6124A961F00F6C70B = C3E1E8C6124A961F00F6C70B /* PBXTextBookmark */;
+			C3B27E801295ABC3003B96D7 /* PBXTextBookmark */ = C3B27E801295ABC3003B96D7 /* PBXTextBookmark */;
+			C3E1E894124A7C7B00F6C70B /* PBXTextBookmark */ = C3E1E894124A7C7B00F6C70B /* PBXTextBookmark */;
 			C3E7B3EE124A999B006DDE8B /* PBXTextBookmark */ = C3E7B3EE124A999B006DDE8B /* PBXTextBookmark */;
 		};
 		sourceControlManager = C38517C7124946E2008DF3D1 /* Source Control */;
@@ -136,9 +125,9 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {922, 7020}}";
-			sepNavSelRange = "{1859, 0}";
-			sepNavVisRange = "{1426, 920}";
+			sepNavIntBoundsRect = "{{0, 0}, {922, 6760}}";
+			sepNavSelRange = "{5567, 0}";
+			sepNavVisRange = "{5055, 1252}";
 			sepNavWindowFrame = "{{15, 91}, {750, 1487}}";
 		};
 	};
